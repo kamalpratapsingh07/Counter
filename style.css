@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    padding: 15px;
+    background-color: aliceblue;
+    /* background-color: aquamarine; */
+    padding: 15px 25px;
+}
+.counter{
+    /* background-color: antiquewhite; */
+    margin: 0;
+    /* width: 100vh; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+
+}
+
+/* .change{
+    display: flex;
+    padding: 1px 2px;
+} */
+/* 
+.number-box {
+
+    border: 0.5px solid black;
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
+    align-items: center;
+} */
+.changeBy {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+}
+
+span {
+    height: 5px;
+    width: 5px;
+    background-color: antiquewhite;
+}
+
+.counter-control {
+    height:75px;
+    width: 50px;
+    display: flex;
+
+}
+
+.minuse {
+    font-size: 2rem;
+    padding: 10px 16px;
+    /* margin: 10px; */
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+
+}
+
+
+.plus {
+    font-size: 2rem;
+    padding: 10px 16px;
+    /* margin:10px; */
+    border-radius: 10px;
+    background: blue;
+    color: white;
+}
+
+.resetButton {
+    padding: 10px 16px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+.text-box {
+    border: none;
+    width: 15px;
+    font-size: 30px;
+} */
+    
+.button-chamber {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
